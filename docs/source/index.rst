@@ -20,7 +20,6 @@ Contents
    Keyboards
    TokenDevelopment
    Smartcontract
-   Brownie
    Solidity in all its glory
    localtest
    openzeppelin
