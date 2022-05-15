@@ -59,8 +59,8 @@ or
 check if Brownie works
 ``brownie``
 
-Networks
-----
+**Networks**
+
 
 Check Brownie networks: 
 
@@ -78,8 +78,8 @@ e.g.
 
 More Infos about Networks: https://www.codeforests.com/2022/01/27/python-brownie-network-setup/
 
-Bake Token 
-----
+**Bake Token**
+
 
 **Create a token**
 
