@@ -1,28 +1,55 @@
 OpenZeppelin
 ========
+
+Contracts 
+---
 https://docs.openzeppelin.com/contracts/4.x/
+
+Cli
+----
+https://docs.openzeppelin.com/cli/2.8/
 
 Install 
 ------
 
 ``npm install @openzeppelin/contracts``
 
-Use 
+``npm install @openzeppelin/cli``
+
+Step by Step
 ----
 
-https://docs.openzeppelin.com/contracts/4.x/api/access
+``mkdir ProjctName && cd ProjectName``
+
+``npm init -y``
+
+``npx openzeppelin init``
+
+OpenZeppelin Ethereum Packages
+----
+
+``npx oz link @openzeppelin/contracts-ethereum-package``
+
+Deploy OpenZeppelin x Ganache 
+-----
+
+``npx ganache-cli --deterministic``
+
+**Deploy**
+
+``npx oz deploy``
+
+**Interact**
+
+``npx oz accounts``
+
+``npx oz send-tx``
+
+Deploy OpenZeppelin x Testnets
+-----
 
 
-Minting 
--------
 
-https://docs.openzeppelin.com/contracts/4.x/erc20-supply
-
-Presets: https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20/presets
 
 Test
 ----
-
-
-Deploy OpenZeppelin contracts
------------
