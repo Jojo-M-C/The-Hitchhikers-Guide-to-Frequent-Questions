@@ -45,6 +45,16 @@ Deploy OpenZeppelin x Ganache
 
 ``npx oz send-tx``
 
+``npx oz balance --erc20 CONTRACTADDRESS```
+
+**upgrade**
+
+Change something. 
+
+``px oz compile``
+
+``npx oz upgrade``
+
 Deploy OpenZeppelin x Testnets
 -----
 
