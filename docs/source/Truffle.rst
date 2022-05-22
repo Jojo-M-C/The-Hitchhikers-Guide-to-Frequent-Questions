@@ -4,14 +4,13 @@ Truffle
 Deploy 
 -----
 
-1. Initalize new project 
+1. Initalize new project and add contracts in /contracts folder
 
 ``truffle init`` 
 
-3. create Contracts 
+2. Modify deployment files 
 
-
-2. Modify "1_initial_migrations.js"
+Note: they have to be named in a consecutive order. 
 
 
 3. Create mnemonics
@@ -97,6 +96,8 @@ Deploy
 12. Migrate 
 
 ``migrate``
+
+If you want to run all deployment files again ``migrate --reset``
 
 13. Check Etherscan 
 
