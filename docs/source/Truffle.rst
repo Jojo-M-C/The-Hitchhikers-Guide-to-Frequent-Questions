@@ -124,3 +124,14 @@ Truffle X OpenZeppelin
 ``npm install @openzeppelin/contracts``
 
 Note: this will create a nodes_modules folder in your repository. 
+
+Errors
+------
+
+``Error: Could not find a compiler version matching 0.X.X. Please ensure you are specifying a valid version, constraint or build in the truffle config. Run `truffle compile --list` to see available versions.``
+
+Note: this is for Mac
+
+Solution: run ``sudo truffle compile``
+
+Reason: truffle tries to compile into ``/usr/local/lib`` but has no permission 
