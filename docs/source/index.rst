@@ -20,6 +20,7 @@ Contents
    Keyboards
    TokenDevelopment
    Smartcontract
+   Truffle
    Solidity in all its glory
    localtest
    openzeppelin
