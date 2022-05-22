@@ -8,6 +8,9 @@ Deploy
 
 ``truffle init`` 
 
+3. create Contracts 
+
+
 2. Modify "1_initial_migrations.js"
 
 
@@ -96,6 +99,13 @@ Deploy
 ``migrate``
 
 13. Check Etherscan 
+
+Interacting 
+---------
+
+**Get address**
+
+``NAME.address``
 
 Truffle X OpenZeppelin 
 ------------
