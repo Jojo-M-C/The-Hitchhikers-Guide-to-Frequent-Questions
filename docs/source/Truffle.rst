@@ -10,6 +10,7 @@ Deploy
 
 2. Modify "1_initial_migrations.js"
 
+
 3. Create mnemonics
 
 ``npx mnemonics``
@@ -85,6 +86,7 @@ Deploy
 
 10. Transfer eth to the first one (via Metamask)
 
+
 11. Get balance 
 
 ``await web3.eth.getBalance("ADDRESS")``
@@ -98,4 +100,16 @@ Deploy
 Truffle X OpenZeppelin 
 ------------
 
+1. Import OZ contracts 
 
+``import "@opzenzeppelin/..."``
+
+2. Initalize project 
+
+``npm init -y``
+
+3. Install @openzeppelin/contracts 
+
+``npm install @openzeppelin/contracts``
+
+Note: this will create a nodes_modules folder in your repository. 
