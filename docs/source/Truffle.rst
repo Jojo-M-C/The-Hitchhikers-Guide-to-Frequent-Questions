@@ -1,8 +1,10 @@
 Truffle 
 =======
 
+Deploy 
+-----
+
 1. Initalize new project 
-----
 
 ``truffle init`` 
 
@@ -12,11 +14,12 @@ Truffle
 
 ``npx mnemonics``
 
-4. Creae secrets.json 
+4. Create secrets.json 
 
 .. code:: yaml
+
     {
-    "mnemonic": "repair derive axis lunch hockey air wealth market detail bicycle mixed shiver"
+        "mnemonic": "repair derive axis lunch hockey air wealth market detail bicycle mixed shiver"
     }
 
 5. Install hfwallet-provider
@@ -91,5 +94,8 @@ Truffle
 ``migrate``
 
 13. Check Etherscan 
+
+Truffle X OpenZeppelin 
+------------
 
 

@@ -1,4 +1,4 @@
-OpenZeppelin
+OpenZeppelin Cli (legacy)
 ========
 
 Contracts 
