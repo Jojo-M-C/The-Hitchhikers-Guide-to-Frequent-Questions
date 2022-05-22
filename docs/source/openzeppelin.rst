@@ -55,11 +55,6 @@ Change something.
 
 ``npx oz upgrade``
 
-Deploy OpenZeppelin x Testnets
+Note: The development of OZ Cli has been discontinued. 
 -----
 
-
-
-
-Test
-----
