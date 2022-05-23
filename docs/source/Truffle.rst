@@ -132,6 +132,25 @@ Errors
 
 Note: this is for Mac
 
-Solution: run ``sudo truffle compile``
+**Solution**
+``sudo truffle compile``
 
 Reason: truffle tries to compile into ``/usr/local/lib`` but has no permission 
+
+.. code:: yaml
+
+    /usr/local/lib/node_modules/truffle/build/459.bundled.js:22386
+        throw new Error(error);
+    
+
+    Uncaught Error: MyToken has no network configuration for its current network id (3).
+        at Function.network (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/properties.js:108:1)
+        at Function.getter (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/constructorMethods.js:285:1)
+        at Function.get (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/properties.js:129:1)
+        ...
+
+**Soluiton**
+
+``sudo truffle console --network ropsten``
+
+``migrate``
