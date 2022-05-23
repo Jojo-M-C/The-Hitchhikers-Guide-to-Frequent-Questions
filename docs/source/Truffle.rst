@@ -128,6 +128,9 @@ Note: this will create a nodes_modules folder in your repository.
 Errors
 ------
 
+1. 
+----
+
 ``Error: Could not find a compiler version matching 0.X.X. Please ensure you are specifying a valid version, constraint or build in the truffle config. Run `truffle compile --list` to see available versions.``
 
 Note: this is for Mac
@@ -136,6 +139,9 @@ Note: this is for Mac
 ``sudo truffle compile``
 
 Reason: truffle tries to compile into ``/usr/local/lib`` but has no permission 
+
+2.
+-----
 
 .. code:: yaml
 
@@ -149,7 +155,7 @@ Reason: truffle tries to compile into ``/usr/local/lib`` but has no permission
         at Function.get (/usr/local/lib/node_modules/truffle/build/webpack:/packages/contract/lib/contract/properties.js:129:1)
         ...
 
-**Soluiton**
+**Solution**
 
 ``sudo truffle console --network ropsten``
 
