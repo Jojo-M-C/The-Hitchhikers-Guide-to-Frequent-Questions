@@ -136,6 +136,7 @@ Errors
 Note: this is for Mac
 
 **Solution**
+
 ``sudo truffle compile``
 
 Reason: truffle tries to compile into ``/usr/local/lib`` but has no permission 
