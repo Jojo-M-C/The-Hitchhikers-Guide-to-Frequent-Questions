@@ -11,16 +11,22 @@ Contents
 --------
 
 .. toctree::
- 
-   
-   Headline 
-   ==========
+   :maxdepth: 2
+   :hidden:
+   :caption: General 
+
    Shortcuts
    Github
    Venv
    Paths
    Packageinstaller
    Keyboards
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Web3 Development
+
    TokenDevelopment
    Smartcontract
    Truffle
@@ -28,6 +34,12 @@ Contents
    localtest
    openzeppelin
    testnet
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Python 
+   
    Common Errors
 
 
