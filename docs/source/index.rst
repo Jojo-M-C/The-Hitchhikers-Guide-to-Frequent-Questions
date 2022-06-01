@@ -1,14 +1,13 @@
 Welcome to the Hitchhiker's Guide to Frequent Problems 
 ===================================
 
-Don't panic. - a wise man  
+“Space is big. You just won't believe how vastly, hugely, mind-bogglingly big it is. I mean, you may think it's a long way down the road to the chemist's, but that's just peanuts to space.”
+― Douglas Adams, The Hitchhiker's Guide to the Galaxy
 
-.. note::
-This website is just a brief collection of stuff I find useful. Please don't view it as a guide but rather think of that one time you skipped class and had to read through one of your
-classmates crappy notes. These are mine.
+Now swap "space" for "the internet". 
 
-Contents
---------
+Hi! Glad you made it here. This is my personal website where I document a lot of the stuff I do and find useful. Feel free to look around :)
+
 
 .. toctree::
    :maxdepth: 2
@@ -39,9 +38,16 @@ Contents
    :maxdepth: 2
    :hidden:
    :caption: Python 
-   
+
    Common Errors
 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Bots 
+
+   Twitterbot
 
 
 

@@ -1,2 +1,2 @@
-# The Hitchhikers Guide to Frequent Questions
+# The Hitchhikers Guide to Frequent Problems
  
