@@ -6,7 +6,7 @@ True, False
 
 Data values from the data type Boolean
 
-.. code:: Python
+.. code:: python
     False == (1 > 2), True == (2 > 1)
 
 and, or, not
@@ -66,3 +66,10 @@ When calling class method, first parameter is implicit.
             self.content = 0.0
         becks = Beer() # constructor - create class
         becks.drink() # beer empty: b.content == 0
+
+
+.. code-block :: js
+
+    {
+        "mnemonic": "repair derive axis lunch hockey air wealth market detail bicycle mixed shiver"
+    }
