@@ -36,3 +36,34 @@ Ends loop prematurely
     break # no infinite loop
     print("hello world")
 
+continue
+----
+
+Finishes current loop iteration 
+
+.. code:: yaml
+    while(True):
+    continue
+    print("43") # dead code
+
+class
+-----
+
+Defines a new class → a real-world concept
+(object oriented programming)
+
+**def**
+
+Defines a new function or class method. For latter,
+first parameter (“self”) points to the class object.
+When calling class method, first parameter is implicit.
+
+.. code:: yaml
+    class Beer:
+        def __init__(self):
+            self.content = 1.0
+        def drink(self):
+            self.content = 0.0
+        becks = Beer() # constructor - create class
+        becks.drink() # beer empty: b.content == 0
+        
