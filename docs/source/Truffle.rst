@@ -19,7 +19,7 @@ Note: they have to be named in a consecutive order.
 
 4. Create secrets.json 
 
-.. code:: yaml
+.. code-block :: js
 
     {
         "mnemonic": "repair derive axis lunch hockey air wealth market detail bicycle mixed shiver"
@@ -31,7 +31,7 @@ Note: they have to be named in a consecutive order.
 
 6. Modify truffle-config.js
 
-.. code:: yaml
+.. code-block :: js
 
     
     const HDWalletProvider = require('@truffle/hdwallet-provider');
