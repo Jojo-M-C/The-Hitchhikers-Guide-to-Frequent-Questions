@@ -6,7 +6,7 @@ True, False
 
 Data values from the data type Boolean
 
-.. code:: yaml
+.. code:: Python
     False == (1 > 2), True == (2 > 1)
 
 and, or, not
@@ -20,7 +20,7 @@ Logical operators:
 
 (not x) → x must be false
 
-.. code:: yaml
+.. code:: python
     x, y = True, False
     (x or y) == True # True
     (x and y) == False # True
@@ -31,7 +31,7 @@ break
 
 Ends loop prematurely 
 
-.. code:: yaml
+.. code:: python
     while(True):
     break # no infinite loop
     print("hello world")
@@ -41,7 +41,7 @@ continue
 
 Finishes current loop iteration 
 
-.. code:: yaml
+.. code:: python
     while(True):
     continue
     print("43") # dead code
@@ -58,7 +58,7 @@ Defines a new function or class method. For latter,
 first parameter (“self”) points to the class object.
 When calling class method, first parameter is implicit.
 
-.. code:: yaml
+.. code:: python
     class Beer:
         def __init__(self):
             self.content = 1.0
@@ -66,4 +66,3 @@ When calling class method, first parameter is implicit.
             self.content = 0.0
         becks = Beer() # constructor - create class
         becks.drink() # beer empty: b.content == 0
-        
