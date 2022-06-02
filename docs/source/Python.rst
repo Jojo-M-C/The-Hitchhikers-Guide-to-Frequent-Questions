@@ -7,7 +7,7 @@ True, False
 Data values from the data type Boolean
 
 .. code-block:: python
-    
+
     False == (1 > 2), True == (2 > 1)
 
 and, or, not
@@ -133,3 +133,44 @@ object
     y = x = 3
     x is y # True
     [3] is [3] # False
+
+
+None 
+-----
+
+Empty value constant
+
+
+.. code-block:: python
+
+    def f():
+    x = 2
+    f() is None # True
+
+
+lambda
+------
+
+Function with no name (anonymous function)
+
+
+.. code-block:: python
+
+    (lambda x: x + 3)(3) # returns 6
+
+
+return 
+------
+
+Terminates execution of the function and passes the
+flow of execution to the caller. An optional value after
+the return keyword specifies the function result.
+
+.. code-block:: python
+
+    def incrementor(x):
+    return x + 1
+    incrementor(4) # returns 5
+
+
+
