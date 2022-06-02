@@ -1,3 +1,3 @@
-Malicious programs: a brief (defenetally not complete) overview
+Malicious programs: a brief (definitely not complete) overview
 =======
 
