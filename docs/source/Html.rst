@@ -2,5 +2,5 @@ Html
 ====
 
 .. note::
-    No, I don't consider HTML a valid language - but where else should I put it?
+    No, neither HTML nor Css counts as a valid language - but where else should I put them?
 
