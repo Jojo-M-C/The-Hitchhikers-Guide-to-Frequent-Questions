@@ -16,6 +16,12 @@ Solidity is an object-oriented programming language for implementing smart contr
 
 .. _pip: https://pip.pypa.io/
 
+The easiest way to install the latest version from PyPI is by using `pip`_::
+
+    pip install tweepy
+
+.. _pip: https://pip.pypa.io/
+
 
 Libaries 
 ---------
