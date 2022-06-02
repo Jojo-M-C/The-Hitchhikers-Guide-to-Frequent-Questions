@@ -1,17 +1,16 @@
-Python 
+Python Keywords
 =======
 
-Keywords 
----------
-
-**True, False**
+True, False
+-------
 
 Data values from the data type Boolean
 
 .. code:: yaml
     False == (1 > 2), True == (2 > 1)
 
-**and, or, not **
+and, or, not
+----
 
 Logical operators:
 
@@ -26,4 +25,14 @@ Logical operators:
     (x or y) == True # True
     (x and y) == False # True
     (not y) == True # True
+
+break
+-------
+
+Ends loop prematurely 
+
+.. code:: yaml
+    while(True):
+    break # no infinite loop
+    print("hello world")
 
