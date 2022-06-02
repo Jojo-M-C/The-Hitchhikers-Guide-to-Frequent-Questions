@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = "The Hitchhiker's Guide to Frequent Questions"
+project = "The Hitchhiker's Guide to Frequent Problems"
 copyright = "2022"
 author = "JMC"
 

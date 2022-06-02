@@ -24,6 +24,17 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: Languages 
+
+   Python 
+   Html
+   Css
+   Solidity
+   JavaScript
+
+   .. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: Web3 Development
 
    TokenDevelopment
@@ -33,17 +44,6 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    localtest
    openzeppelin
    testnet
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Languages 
-
-   Python 
-   Html
-   Css
-   Solidity
-   JavaScript
 
 .. toctree::
    :maxdepth: 2
