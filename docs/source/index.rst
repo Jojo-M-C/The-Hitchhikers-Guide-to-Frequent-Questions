@@ -70,7 +70,8 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 
    books
    custom keyboards
-   privacy 
-   
+   privacy
+   viruses 
+
 
 
