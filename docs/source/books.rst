@@ -1,7 +1,7 @@
 Books worth reading 
 ============
 
-This is a curated list of books a particulary enjoyed reading. 
+The following is a curated list of books a particulary enjoyed reading. 
 
 Psychology 
 -------
