@@ -24,7 +24,7 @@ Reinstall your operating system
 
 POV: you messed around with System32 or equivilant
 
-1. Deinal: Tell yourself that the mistake you made isn't that bad
+1. Deinal: Tell yourself that the mistake you made wasn't that bad
 2. Anger: Write an essay about the immeasurable pain of being a programmer 
 3. Bargaining: Spend a few hours trying to fix what you broke 
 4. Depression: Fall asleep to an seemingly endless stream of error messeages 

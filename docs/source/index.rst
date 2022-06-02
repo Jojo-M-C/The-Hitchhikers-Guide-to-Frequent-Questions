@@ -32,7 +32,7 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    Solidity
    JavaScript
 
-   .. toctree::
+.. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Web3 Development
