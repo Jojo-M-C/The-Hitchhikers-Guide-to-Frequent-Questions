@@ -38,19 +38,31 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Python 
+   :caption: Languages 
 
-   Common Errors
-
+   Python 
+   Html
+   Css
+   Solidity
+   JavaScript
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Bots 
+   :caption: Projects 
 
-   Twitterbot
+   Tiktok Bot
+   Twitter Bot
+   InstaPy
+   Leon AI
+   
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Errors & Solutions
 
+   Common Errors
 
 
 
