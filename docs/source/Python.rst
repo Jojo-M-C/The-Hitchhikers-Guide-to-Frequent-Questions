@@ -6,7 +6,8 @@ True, False
 
 Data values from the data type Boolean
 
-.. code:: python
+.. code-block:: python
+    
     False == (1 > 2), True == (2 > 1)
 
 and, or, not
@@ -20,7 +21,8 @@ Logical operators:
 
 (not x) → x must be false
 
-.. code:: python
+.. code-block:: python
+
     x, y = True, False
     (x or y) == True # True
     (x and y) == False # True
@@ -31,7 +33,8 @@ break
 
 Ends loop prematurely 
 
-.. code:: python
+.. code-block:: python
+
     while(True):
     break # no infinite loop
     print("hello world")
@@ -41,7 +44,8 @@ continue
 
 Finishes current loop iteration 
 
-.. code:: python
+.. code-block:: python
+
     while(True):
     continue
     print("43") # dead code
@@ -58,7 +62,8 @@ Defines a new function or class method. For latter,
 first parameter (“self”) points to the class object.
 When calling class method, first parameter is implicit.
 
-.. code:: python
+.. code-block:: python
+
     class Beer:
         def __init__(self):
             self.content = 1.0
@@ -76,6 +81,7 @@ Conditional program execution: program starts with
 “else” branch (until one branch evaluates to True).
 
 .. code-block:: python
+
         x = int(input("your value: "))
         if x > 3: print("Big")
         elif x == 3: print("Medium")
@@ -85,13 +91,16 @@ for loop
 -----
 
 .. code-block:: python
+
         # For loop declaration
         for i in [0,1,2]:
         print(i)
 
 while loop
+------
 
 .. code-block:: python
+
         # While loop - same semantics
         j = 0
         while j < 3:
@@ -103,3 +112,24 @@ while loop
 
     >>> Token.deploy
     <ContractConstructor object 'Token.constructor(string _symbol, string _name, uint256 _decimals, uint256 _totalSupply)'>
+
+in
+-----
+
+Checks whether element is in sequence 
+
+.. code-block:: python
+
+    42 in [2, 39, 42] # True
+
+is 
+------
+
+Checks whether both elements point to the same
+object
+
+.. code-block:: python
+
+    y = x = 3
+    x is y # True
+    [3] is [3] # False
