@@ -49,8 +49,8 @@ following.
 3. Triple quotes (multi-line)
 
 ``"""Yes
-We Can"""
-``
+We Can"""``
+
 4. String method
 
 ``str(5) == '5' # True``
