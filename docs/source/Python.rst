@@ -68,12 +68,6 @@ When calling class method, first parameter is implicit.
         becks.drink() # beer empty: b.content == 0
 
 
-.. code-block :: py
-
-    {
-        "mnemonic": "repair derive axis lunch hockey air wealth market detail bicycle mixed shiver"
-    }
-
 if, elif, else 
 --------
 
@@ -81,8 +75,17 @@ Conditional program execution: program starts with
 “if” branch, tries the “elif” branches, and finishes with
 “else” branch (until one branch evaluates to True).
 
-.. code-block :: py
+.. code-block :: js
     x = int(input("your value: "))
     if x > 3: print("Big")
     elif x == 3: print("Medium")
     else: print("Small")
+
+for loop
+-----
+
+.. code-block :: js
+    # For loop declaration
+    for i in [0,1,2]:
+    print(i)
+
