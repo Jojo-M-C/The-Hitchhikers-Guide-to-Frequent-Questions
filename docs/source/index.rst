@@ -20,7 +20,6 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    Venv
    Paths
    Packageinstaller
-   Keyboards
 
 .. toctree::
    :maxdepth: 2
@@ -64,5 +63,14 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 
    Common Errors
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Books and other stuff
+
+   books
+   custom keyboards
+   privacy 
+   
 
 

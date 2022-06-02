@@ -1,4 +1,4 @@
-GitHub: for dummies 
+GitHub for dummies 
 ========
 
 Crating a new repsitory and uploading everything 

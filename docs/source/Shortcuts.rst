@@ -1,4 +1,4 @@
-Shortcuts to life
+Notable Shortcuts
 ========
 
 Windows 
@@ -7,4 +7,6 @@ Windows
 Task view: ``Windows + Tab``
 
 Switch between desktops: ``Strg + Windows + left/right``
+
+
 
