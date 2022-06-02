@@ -28,7 +28,6 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 
    python keywords 
    python data types 
-   python functions and tricks
    python typical problems
 
 .. toctree::

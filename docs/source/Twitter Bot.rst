@@ -12,20 +12,20 @@ The easiest way to install the latest version from PyPI is by using `pip`_::
 
 1. create a directory and a virtual environment 
 
-.. code:: yaml
+.. code-block:: python
     mkdir tweepy-bots
     cd tweepy-bots
     python3 -m venv venv
 
 2. activate virtual environment and install tweepy
 
-.. code:: yaml
+.. code-block:: python
     source ./venv/bin/activate
     pip install tweepy
 
 3. create requirements.txt 
 
-.. code:: yaml
+.. code-block:: python
     pip freeze > requirements.txt
 
 
@@ -43,7 +43,7 @@ Example
 
 This code will download the tweets in your home timeline and print their texts to the console. 
 
-.. code-block :: python
+.. code-block:: python
 
    import tweepy
 
