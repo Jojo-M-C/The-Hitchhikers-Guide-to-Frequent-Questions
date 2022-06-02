@@ -15,18 +15,18 @@ and, or, not
 
 Logical operators:
 
-(x and y) → both x and y must be True
-
 (x or y) → either x or y must be True
 
-(not x) → x must be false
+(x and y) → both x and y must be True
+
+(not y) → y must be false
 
 .. code-block:: python
 
     x, y = True, False
-    (x or y) == True # True
-    (x and y) == False # True
-    (not y) == True # True
+    (x or y) == True 
+    (x and y) == False 
+    (not y) == True 
 
 break
 -------
@@ -107,11 +107,6 @@ while loop
         print(j)
         j = j + 1
 
-
-.. code-block:: python
-
-    >>> Token.deploy
-    <ContractConstructor object 'Token.constructor(string _symbol, string _name, uint256 _decimals, uint256 _totalSupply)'>
 
 in
 -----
