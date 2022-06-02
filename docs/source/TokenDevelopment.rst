@@ -1,10 +1,23 @@
 Token Development Overview
 =====================
 
-Languages/Packages 
+.. note::
+    This is an ever-evolving overview that can by no means be considered complete.
+
+Languages
 -------
 
-Solidity: https://docs.soliditylang.org/en/v0.8.13/index.html
+**Solidity**
+
+Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
+
+`Documentation`_::
+
+.. _Documentation: https://docs.soliditylang.org/en/v0.8.14/ 
+
+
+
+https://docs.soliditylang.org/en/v0.8.13/index.html
 
 Web3.py: https://web3py.readthedocs.io/en/stable/
 
