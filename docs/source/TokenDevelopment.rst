@@ -12,7 +12,7 @@ Languages
 
 Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
 
- `Documentation`_::
+ `Documentation`_
 
 .. _Documentation: https://docs.soliditylang.org/en/v0.8.14/
 
