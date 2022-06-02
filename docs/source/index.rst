@@ -24,12 +24,23 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Languages 
+   :caption: Python 
 
-   Python 
-   Html
-   Css
+   python keywords 
+   python data types 
+   python functions and tricks
+   python typical problems
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Solidity
    Solidity
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: other languages
    JavaScript
 
 .. toctree::
