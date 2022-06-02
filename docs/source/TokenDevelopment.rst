@@ -12,7 +12,7 @@ Languages
 
 Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
 
-`pip`_::
+ `pip`_::
 
 .. _pip: https://pip.pypa.io/
 
