@@ -34,12 +34,14 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    :maxdepth: 2
    :hidden:
    :caption: Solidity
+
    Solidity
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: other languages
+   
    JavaScript
 
 .. toctree::
