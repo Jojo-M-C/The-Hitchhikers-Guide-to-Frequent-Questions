@@ -89,3 +89,17 @@ for loop
         for i in [0,1,2]:
         print(i)
 
+while loop
+
+.. code-block:: python
+        # While loop - same semantics
+        j = 0
+        while j < 3:
+        print(j)
+        j = j + 1
+
+
+.. code-block:: python
+
+    >>> Token.deploy
+    <ContractConstructor object 'Token.constructor(string _symbol, string _name, uint256 _decimals, uint256 _totalSupply)'>
