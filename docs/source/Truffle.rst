@@ -1,35 +1,68 @@
 Truffle 
 =======
 
-Deploy 
------
-
-1. Initalize new project and add contracts in /contracts folder
+1. Create Folder and initalize new project
+-------
 
 ``truffle init`` 
 
-2. Modify deployment files 
+2. add contracts in ``/contracts`` folder
+----
+
+For example: 
+
+.. code-block :: python
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.4;
+
+    import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+    contract MyToken is ERC20 {
+        constructor() ERC20("MyToken", "MTK") {}
+    }
+
+
+3. Modify deployment files 
 
 Note: they have to be named in a consecutive order. 
 
+Your ``/migrations`` folder might look something like this: 
 
-3. Create mnemonics
+.. code-block :: python
+    1_initial_migrations.js
+    2_MyToken_migration.js
+    ...
+
+
+4. Create mnemonics
+-------
 
 ``npx mnemonics``
 
-4. Create secrets.json 
+
+5. Create secrets.json 
+----
+
+This file will store your newly created mnemonic
 
 .. code-block :: js
 
     {
-        "mnemonic": "repair derive axis lunch hockey air wealth market detail bicycle mixed shiver"
+        "mnemonic": "repair derive axis lunch ********** shiver"
     }
 
-5. Install hfwallet-provider
+
+5. Install `hdwallet-provider`_
+-----
+.. _hdwallet-provider: https://www.npmjs.com/package/@truffle/hdwallet-provider
+
+You need this to sign the transaction. 
 
 ``npm install @truffle/hdwallet-provider``
 
+
 6. Modify truffle-config.js
+------
 
 .. code-block :: js
 
@@ -43,7 +76,7 @@ Note: they have to be named in a consecutive order.
     networks: {
 
         ropsten: {
-        provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/wss://speedy-nodes-nyc.moralis.io/30f9d049c*****941/eth/ropsten/ws`),
+        provider: () => new HDWalletProvider(mnemonic, `wss://speedy-nodes-nyc.moralis.io/30f9d049c*****941/eth/ropsten/ws`),
         network_id: 3,       // Ropsten's id
         gas: 5500000,        // Ropsten has a lower block limit than mainnet
         confirmations: 2,    // # of confs to wait between deployments. (default: 0)
@@ -76,37 +109,70 @@ Note: they have to be named in a consecutive order.
     };
 
 
-7. Paste Moralis Speedy-Nodes (WWS)
+7. Change default node provider
+-------
+
+Either use `Moralis`_ (Moralis Speedy Nodes) or `Infura`_ (New Project --> Settings)
+
+``provider: () => new HDWalletProvider(mnemonic, `PASTE`)`` 
+
+.. _Moralis: https://moralis.io/
+.. _Infura: https://infura.io/
+
 
 8. Enter Truffle Console 
+-------
 
 ``truffle console --network ropsten``
 
+
 9. Get accounts
+-------
 
 ``await web3.eth.getAccounts()``
 
-10. Transfer eth to the first one (via Metamask)
+
+10. Fund account
+------
+
+**Get test ETH**
+
+You'll need some `ETH`_ to deploy your contract later on. 
+
+Transfer `ETH`_ to your first Truffle account vie `MetaMask`_. 
+
+If you don't have a `MetaMask`_ account yet, create one now. 
+
+.. _MetaMask: https://metamask.io/
+.. _ETH: https://the-hitchhikers-guide-to-frequent-questions.readthedocs.io/en/latest/testnet.html 
 
 
-11. Get balance 
+11. Get balance of funded account
+----
 
 ``await web3.eth.getBalance("ADDRESS")``
 
+
 12. Migrate 
+-----
+
+This will deploy your contracts to your configured network. 
 
 ``migrate``
 
 If you want to run all deployment files again ``migrate --reset``
 
 13. Check Etherscan 
-
-Interacting 
----------
+-----
 
 **Get address**
 
+To get the address of your smartcontract you must swap ``NAME`` for your contracts name. 
+
 ``NAME.address``
+
+Now you can pad yourself on the back and lookup your contract on Etherscan. 
+
 
 Truffle X OpenZeppelin 
 ------------
@@ -129,7 +195,6 @@ Errors
 ------
 
 1. 
-----
 
 ``Error: Could not find a compiler version matching 0.X.X. Please ensure you are specifying a valid version, constraint or build in the truffle config. Run `truffle compile --list` to see available versions.``
 
@@ -142,7 +207,6 @@ Note: this is for Mac
 Reason: truffle tries to compile into ``/usr/local/lib`` but has no permission 
 
 2.
------
 
 .. code:: yaml
 
