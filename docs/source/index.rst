@@ -40,13 +40,6 @@ So hi! My name is Johanna and this is my personal website where I document a lot
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: other languages
-   
-   JavaScript
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
    :caption: Web3 Development
 
    TokenDevelopment
