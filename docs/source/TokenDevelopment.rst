@@ -6,21 +6,20 @@ ETH Token Development Overview
 
 Ethereum 
 -----
+
 Ethereum is a decentralized, open-source blockchain with smart contract functionality.
 
+`ETH Website`_
 
-Website
+.. _ETH Website: https://ethereum.org/en/
 
-https://ethereum.org/en/
+`ETH Documentation`_
 
-Documentation 
+.. _ETH Documentation: https://ethereum.org/en/developers/docs/
 
-https://ethereum.org/en/developers/docs/
+`ETH Github`_
 
-Github 
-
-https://github.com/ethereum
-
+.. _ETH Github: https://github.com/ethereum
 
 
 Languages
@@ -30,9 +29,9 @@ Languages
 
 Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
 
-`Documentation`_
+`Solidity Documentation`_
 
-.. _Documentation: https://docs.soliditylang.org/en/v0.8.14/
+.. _Solidity Documentation: https://docs.soliditylang.org/en/v0.8.14/
 
 Notable Libraries 
 ---------
@@ -41,35 +40,35 @@ Notable Libraries
 
 Web3.js is a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket. It’s a JavaScript implementation of the Ethereum JSON-RPC.
 
-`Doc`_
+`Web3.js Documentation`_
 
-.. _Doc: https://web3js.readthedocs.io/en/v1.7.3/
+.. _Web3.js Documentation: https://web3js.readthedocs.io/en/v1.7.3/
 
 **Web3.py**
 
 The original API was derived from the Web3.js Javascript API, but has since evolved toward the needs and creature comforts of Python developers.
 
-`Doc`_
+`Web3.py Documentation`_
 
-.. _Doc: https://web3py.readthedocs.io/en/stable/
+.. _Web3.py Documentation: https://web3py.readthedocs.io/en/stable/
 
 **Truffle**
 
 Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. 
 
 
-`Doc`_
+`Truffle Documentation`_
 
-.. _Doc: https://trufflesuite.com/docs/truffle/
+.. _Truffle Documentation: https://trufflesuite.com/docs/truffle/
 
 
 **Ganache**
 
 Ganache is used for setting up a personal Ethereum Blockchain for testing your Solidity contracts. 
 
-`Doc`_
+`Ganache Documentation`_
 
-.. _Doc: https://trufflesuite.com/docs/ganache/
+.. _Ganache Documentation: https://trufflesuite.com/docs/ganache/
 
 Smart contracts 
 ---------
@@ -78,13 +77,13 @@ Smart contracts
 
 A library for secure smart contract development. Build on a solid foundation of community-vetted code.
 
-`Website`_
+`OZ Website`_
 
-.. _Website: https://docs.openzeppelin.com/
+.. _OZ Website: https://docs.openzeppelin.com/
 
-`Github`_
+`OZ Github`_
 
-.. _Github: https://github.com/OpenZeppelin/openzeppelin-contracts
+.. _OZ Github: https://github.com/OpenZeppelin/openzeppelin-contracts
 
 
 Local test-blockchain 
