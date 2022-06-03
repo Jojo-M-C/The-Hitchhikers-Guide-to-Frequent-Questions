@@ -22,7 +22,7 @@ Ethereum is a decentralized, open-source blockchain with smart contract function
 .. _ETH Github: https://github.com/ethereum
 
 
-Languages
+Language
 -------
 
 **Solidity**
@@ -36,7 +36,9 @@ Solidity is an object-oriented programming language for implementing smart contr
 Notable Libraries 
 ---------
 
-**Web3.js**
+**JavaScript**
+
+- Web3.js
 
 Web3.js is a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket. It’s a JavaScript implementation of the Ethereum JSON-RPC.
 
@@ -44,15 +46,7 @@ Web3.js is a collection of libraries that allow you to interact with a local or 
 
 .. _Web3.js Documentation: https://web3js.readthedocs.io/en/v1.7.3/
 
-**Web3.py**
-
-The original API was derived from the Web3.js Javascript API, but has since evolved toward the needs and creature comforts of Python developers.
-
-`Web3.py Documentation`_
-
-.. _Web3.py Documentation: https://web3py.readthedocs.io/en/stable/
-
-**Truffle**
+- Truffle
 
 Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. 
 
@@ -61,14 +55,32 @@ Truffle is a development environment, testing framework and asset pipeline for E
 
 .. _Truffle Documentation: https://trufflesuite.com/docs/truffle/
 
-
-**Ganache**
+- Ganache
 
 Ganache is used for setting up a personal Ethereum Blockchain for testing your Solidity contracts. 
 
 `Ganache Documentation`_
 
 .. _Ganache Documentation: https://trufflesuite.com/docs/ganache/
+
+**Python**
+
+- Web3.py
+
+The original API was derived from the Web3.js Javascript API, but has since evolved toward the needs and creature comforts of Python developers.
+
+`Web3.py Documentation`_
+
+.. _Web3.py Documentation: https://web3py.readthedocs.io/en/stable/
+
+- Brownie
+
+Brownie is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.
+
+`Brownie Documentation`_
+
+.. _Brownie Documentation: https://eth-brownie.readthedocs.io/en/stable/
+
 
 Smart contracts 
 ---------
@@ -86,12 +98,18 @@ A library for secure smart contract development. Build on a solid foundation of 
 .. _OZ Github: https://github.com/OpenZeppelin/openzeppelin-contracts
 
 
-Local test-blockchain 
+Deployment 
 ------
 
-Truffle (Ganache): https://trufflesuite.com/
+**Truffle**
 
-Hardhat: https://hardhat.org/
+
+
+**Hardhat** 
+
+`Hardhat Website`_
+
+.. _Hardhat Website: https://hardhat.org/
 
 
 Deploying contracts 
