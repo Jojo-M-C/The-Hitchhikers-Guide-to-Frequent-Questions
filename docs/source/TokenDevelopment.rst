@@ -26,7 +26,6 @@ Wallet
 
 **MetaMask**
 
-
 MetaMask allows users to store and manage account keys, broadcast transactions, send and receive Ethereum-based cryptocurrencies and tokens, and securely connect to decentralized applications through a compatible web browser or the mobile app's built-in browser.
 
 `MetaMask Website`_
@@ -44,6 +43,10 @@ Solidity is an object-oriented programming language for implementing smart contr
 
 .. _Solidity Documentation: https://docs.soliditylang.org/en/v0.8.14/
 
+**Solidity Compiler**
+
+``npm install -g solc`` 
+
 Notable Libraries/Environments
 ---------
 
@@ -57,6 +60,9 @@ Web3.js is a collection of libraries that allow you to interact with a local or 
 
 .. _Web3.js Documentation: https://web3js.readthedocs.io/en/v1.7.3/
 
+``npm install web3```
+
+
 - Truffle
 
 Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. 
@@ -66,6 +72,10 @@ Truffle is a development environment, testing framework and asset pipeline for E
 
 .. _Truffle Documentation: https://trufflesuite.com/docs/truffle/
 
+
+``npm install -g truffle``
+
+
 - Ganache
 
 Ganache is used for setting up a personal Ethereum Blockchain for testing your Solidity contracts. 
@@ -73,6 +83,18 @@ Ganache is used for setting up a personal Ethereum Blockchain for testing your S
 `Ganache Documentation`_
 
 .. _Ganache Documentation: https://trufflesuite.com/docs/ganache/
+
+
+``npm install -g ganache-cli`` or ``npm install -g ganache``
+
+use ``sudo`` on Mac to have Admin rights. 
+
+or 
+
+Install yarn: ``npm install --global yarn``
+
+``yarn global add ganache-cli`` or ``yarn global add ganache``
+
 
 - Hardhat
 
@@ -82,6 +104,8 @@ Hardhat is a development environment to compile, deploy, test, and debug Ethereu
 
 .. _Hardhat Documentation: https://hardhat.org/getting-started
 
+
+ ``npm install --save-dev hardhat``
 
 **Python**
 
@@ -93,6 +117,8 @@ The original API was derived from the Web3.js Javascript API, but has since evol
 
 .. _Web3.py Documentation: https://web3py.readthedocs.io/en/stable/
 
+``pip install web3``
+
 - Brownie
 
 Brownie is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.
@@ -101,6 +127,7 @@ Brownie is a Python-based development and testing framework for smart contracts 
 
 .. _Brownie Documentation: https://eth-brownie.readthedocs.io/en/stable/
 
+``pip install eth-brownie``
 
 Smart contracts 
 ---------
@@ -117,6 +144,7 @@ A library for secure smart contract development. Build on a solid foundation of 
 
 .. _OZ Github: https://github.com/OpenZeppelin/openzeppelin-contracts
 
+``npm install @openzeppelin/contracts``
 
 Node Provider 
 -------
@@ -152,7 +180,3 @@ Security audits.
 `Diligence Website`_
 
 .. _Diligence Website: https://consensys.net/diligence/
-
-
-
-
