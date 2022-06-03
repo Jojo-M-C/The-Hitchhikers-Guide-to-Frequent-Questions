@@ -21,6 +21,17 @@ Ethereum is a decentralized, open-source blockchain with smart contract function
 
 .. _ETH Github: https://github.com/ethereum
 
+Wallet
+-----
+
+**MetaMask**
+
+
+MetaMask allows users to store and manage account keys, broadcast transactions, send and receive Ethereum-based cryptocurrencies and tokens, and securely connect to decentralized applications through a compatible web browser or the mobile app's built-in browser.
+
+`MetaMask Website`_
+
+.. _MetaMask Website: https://metamask.io/
 
 Language
 -------
@@ -33,7 +44,7 @@ Solidity is an object-oriented programming language for implementing smart contr
 
 .. _Solidity Documentation: https://docs.soliditylang.org/en/v0.8.14/
 
-Notable Libraries 
+Notable Libraries/Environments
 ---------
 
 **JavaScript**
@@ -62,6 +73,15 @@ Ganache is used for setting up a personal Ethereum Blockchain for testing your S
 `Ganache Documentation`_
 
 .. _Ganache Documentation: https://trufflesuite.com/docs/ganache/
+
+- Hardhat
+
+Hardhat is a development environment to compile, deploy, test, and debug Ethereum software.
+
+`Hardhat Documentation`_
+
+.. _Hardhat Documentation: https://hardhat.org/getting-started
+
 
 **Python**
 
@@ -98,35 +118,41 @@ A library for secure smart contract development. Build on a solid foundation of 
 .. _OZ Github: https://github.com/OpenZeppelin/openzeppelin-contracts
 
 
-Deployment 
-------
-
-**Truffle**
-
-
-
-**Hardhat** 
-
-`Hardhat Website`_
-
-.. _Hardhat Website: https://hardhat.org/
-
-
-Deploying contracts 
-------
-
-Brownie: https://eth-brownie.readthedocs.io/en/stable/toctree.html
-
 Node Provider 
 -------
 
-Moralis: https://docs.moralis.io/introduction/readme
+**Moralis Speedy Nodes**
+
+`Moralis Documentation`_
+
+.. _Moralis Documentation: https://docs.moralis.io/introduction/readme
+
+**Infura**
+
+`Infura Documentation`_
+
+.. _Infura Documentation: https://docs.infura.io/infura/networks/ethereum
 
 
-Get real-world data 
+dApp Development
 -------
 
-ChainLink: https://chain.link/
+**Chainlink**
 
-Consensys: https://consensys.net
+Chainlink decentralized oracle networks provide tamper-proof inputs, outputs, and computations to support advanced smart contracts on any blockchain.
+
+`Chainlink Documentation`_
+
+.. _Chainlink Documentation: https://docs.chain.link/docs/conceptual-overview/
+
+**Diligence**
+
+Security audits.
+
+`Diligence Website`_
+
+.. _Diligence Website: https://consensys.net/diligence/
+
+
+
 
