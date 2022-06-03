@@ -1,13 +1,14 @@
-OpenZeppelin Cli (legacy)
+OpenZeppelin Cli
 ========
 
-Contracts 
----
-https://docs.openzeppelin.com/contracts/4.x/
+`Documentation`_ 
 
-Cli
-----
-https://docs.openzeppelin.com/cli/2.8/
+.. _Documentation: https://docs.openzeppelin.com/cli/2.8/
+
+
+.. note::
+    The development of this project has been discontinued. This short documentation therefore only exists for legacy reasons. 
+
 
 Install 
 ------
@@ -16,7 +17,7 @@ Install
 
 ``npm install @openzeppelin/cli``
 
-Step by Step
+Create new project
 ----
 
 ``mkdir ProjctName && cd ProjectName``
@@ -25,13 +26,16 @@ Step by Step
 
 ``npx openzeppelin init``
 
+
 OpenZeppelin Ethereum Packages
 ----
+
 
 ``npx oz link @openzeppelin/contracts-ethereum-package``
 
 Deploy OpenZeppelin x Ganache 
 -----
+
 
 ``npx ganache-cli --deterministic``
 
@@ -55,6 +59,4 @@ Change something.
 
 ``npx oz upgrade``
 
-Note: The development of OZ Cli has been discontinued. 
------
 
