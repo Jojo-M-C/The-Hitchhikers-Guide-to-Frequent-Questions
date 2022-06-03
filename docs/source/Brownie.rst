@@ -2,6 +2,7 @@ Brownie Speedrun
 =================
 
 1. Create `venv`_
+-------
 
 .. _venv: https://the-hitchhikers-guide-to-frequent-questions.readthedocs.io/en/latest/Venv.html
 
@@ -140,7 +141,7 @@ Rinkeby example:
 
 ``brownie networks add Ethereum moralis-rinkeby host=https://speedy-nodes-nyc.moralis.io/70cbea161463fe***/eth/rinkeby chainid=4`` 
 
-Don't know what to set ``host=``?
+Don't know what to set ``host=`` to?
 
 Either go to `Moralis`_ (Moralis Speedy Nodes) or `Infura`_ (New Project --> Settings) and get an endpoint.
 
@@ -166,6 +167,7 @@ This does not cover everything, so if you need more infos concering networks rea
 Your file structure will now look something like this: 
 
 .. code-block:: python
+
     /yourtoken 
         /token 
             /build
@@ -184,12 +186,12 @@ Your file structure will now look something like this:
 
 **Get test ETH**
 
-You'll need some `test ETH`_ to deploy your contract later on. 
+You'll need some `ETH`_ to deploy your contract later on. 
 
 If you don't have a `MetaMask`_ account yet, create one now. 
 
 .. _MetaMask: https://metamask.io/
-.. _test ETH`: https://the-hitchhikers-guide-to-frequent-questions.readthedocs.io/en/latest/testnet.html 
+.. _ETH`: https://the-hitchhikers-guide-to-frequent-questions.readthedocs.io/en/latest/testnet.html 
 
 7. Deploy contract 
 ---------
