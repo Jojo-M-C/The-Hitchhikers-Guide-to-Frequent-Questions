@@ -4,6 +4,13 @@ ETH Token Development Overview
 .. note::
     This is an ever-evolving overview that can by no means be considered complete.
 
+Ethereum 
+-----
+Ethereum is a decentralized, open-source blockchain with smart contract functionality.
+
+
+
+https://ethereum.org/en/
 
 Languages
 -------
