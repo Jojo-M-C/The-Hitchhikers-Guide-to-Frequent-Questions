@@ -9,8 +9,19 @@ Ethereum
 Ethereum is a decentralized, open-source blockchain with smart contract functionality.
 
 
+Website
 
 https://ethereum.org/en/
+
+Documentation 
+
+https://ethereum.org/en/developers/docs/
+
+Github 
+
+https://github.com/ethereum
+
+
 
 Languages
 -------
@@ -60,9 +71,9 @@ Ganache is used for setting up a personal Ethereum Blockchain for testing your S
 
 .. _Documentation: https://trufflesuite.com/docs/ganache/
 
-`Website`_
+`Doc`_
 
-.. _Website: https://docs.openzeppelin.com/
+.. _Doc: https://docs.openzeppelin.com/
 
 Smart contracts 
 ---------
