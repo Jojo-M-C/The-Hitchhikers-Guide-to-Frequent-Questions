@@ -50,7 +50,7 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    :caption: Web3 Development
 
    TokenDevelopment
-   Brwonie
+   Brownie
    Truffle
    Solidity in all its glory
    localtest

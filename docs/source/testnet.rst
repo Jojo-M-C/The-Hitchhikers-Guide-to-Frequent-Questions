@@ -5,7 +5,7 @@ Eth testnets
 ------
 The only proof-of-work testnet. It has unpredictable block times and frequent chain reorganizations. At the same time, it is the chain that most closely resembles mainnet. (id=3)
 
-`Rinkeby`
+`Rinkeby`_
 ----------
 A proof-of-authority network. This means that new blocks are added by a set of pre-defined trusted nodes, instead of by whichever miner provides a proof-of-work. It only works with Geth clients, and has 15-second block times. (id=4)
 
