@@ -15,7 +15,6 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    :hidden:
    :caption: General 
 
-   Shortcuts
    Github
    Venv
    Paths
@@ -48,18 +47,7 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    localtest
    testnet
    openzeppelin
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Projects 
-
-   Tiktok Bot
-   Twitter Bot
-   InstaPy
-   Leon AI
    
-
 .. toctree::
    :maxdepth: 2
    :hidden:

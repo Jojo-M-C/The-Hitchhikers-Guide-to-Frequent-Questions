@@ -3,7 +3,7 @@
 # -- Project information
 
 project = "The Hitchhiker's Guide to Frequent Problems"
-copyright = "2022"
+copyright = "MIT"
 author = "JMC"
 
 release = "0.1"
