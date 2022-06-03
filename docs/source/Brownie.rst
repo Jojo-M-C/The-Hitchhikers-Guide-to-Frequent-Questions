@@ -1,4 +1,4 @@
-Brownie Speedrun
+ETH Token with Brownie 
 =================
 
 1. Create `venv`_

@@ -21,6 +21,16 @@ Ethereum is a decentralized, open-source blockchain with smart contract function
 
 .. _ETH Github: https://github.com/ethereum
 
+`ERC20 Token Standard`_
+
+.. _ERC20 Token Standard: https://eips.ethereum.org/EIPS/eip-20
+
+**Tutorials/Games**
+
+`CryptoZombies`_
+
+.. _CryptoZombies: https://cryptozombies.io/en/course
+
 Wallet
 -----
 

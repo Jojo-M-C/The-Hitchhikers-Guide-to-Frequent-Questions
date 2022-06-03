@@ -1,4 +1,4 @@
-Truffle 
+ETH Token with Truffle  
 =======
 
 1. Create Folder and initalize new project
