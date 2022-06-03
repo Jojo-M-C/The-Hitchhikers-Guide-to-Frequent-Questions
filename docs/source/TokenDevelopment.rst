@@ -16,20 +16,40 @@ Solidity is an object-oriented programming language for implementing smart contr
 
 .. _Documentation: https://docs.soliditylang.org/en/v0.8.14/
 
-Libaries 
+Notable Libaries 
 ---------
+
+**Web3.js**
+
+Web3.js is a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket.
+
+ `Documentation`_
+
+.. _Documentation: https://web3js.readthedocs.io/en/v1.7.3/
 
 **Web3.py**
+The original API was derived from the Web3.js Javascript API, but has since evolved toward the needs and creature comforts of Python developers.
 
- https://web3py.readthedocs.io/en/stable/
+ `Documentation`_
 
-Web3.js: https://web3js.readthedocs.io/en/v1.7.3/
+.. _Documentation: https://web3py.readthedocs.io/en/stable/
 
 
-Best library for bare-bones contracts 
+Smart contracts 
 ---------
 
-OpenZeppelin: https://docs.openzeppelin.com/
+
+**OpenZeppelin**
+
+A library for secure smart contract development. Build on a solid foundation of community-vetted code.
+
+`Website`_
+
+.. _Website: https://docs.openzeppelin.com/
+
+`Github`_
+
+.. _Github: https://github.com/OpenZeppelin/openzeppelin-contracts
 
 
 Local test-blockchain 
