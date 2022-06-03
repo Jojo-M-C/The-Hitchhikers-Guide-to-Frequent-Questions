@@ -12,18 +12,18 @@ Languages
 
 Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
 
- `Documentation`
+`Documentation`_
 
 .. _Documentation: https://docs.soliditylang.org/en/v0.8.14/
 
-Notable Libaries 
+Notable Libraries 
 ---------
 
 **Web3.js**
 
 Web3.js is a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket. It’s a JavaScript implementation of the Ethereum JSON-RPC.
 
- `Documentation`
+`Documentation`_
 
 .. _Documentation: https://web3js.readthedocs.io/en/v1.7.3/
 
@@ -31,7 +31,7 @@ Web3.js is a collection of libraries that allow you to interact with a local or 
 
 The original API was derived from the Web3.js Javascript API, but has since evolved toward the needs and creature comforts of Python developers.
 
- `Documentation`
+`Documentation`_
 
 .. _Documentation: https://web3py.readthedocs.io/en/stable/
 
@@ -39,6 +39,19 @@ The original API was derived from the Web3.js Javascript API, but has since evol
 
 Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. 
 
+
+`Documentation`_
+
+.. _Documentation: https://trufflesuite.com/docs/truffle/
+
+
+**Ganache**
+
+Ganache is used for setting up a personal Ethereum Blockchain for testing your Solidity contracts. 
+
+`Documentation`_
+
+.. _Documentation: https://trufflesuite.com/docs/ganache/
 
 
 Smart contracts 
