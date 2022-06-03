@@ -52,10 +52,9 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    TokenDevelopment
    Brownie
    Truffle
-   Solidity in all its glory
    localtest
-   openzeppelin
    testnet
+   openzeppelin
 
 .. toctree::
    :maxdepth: 2
