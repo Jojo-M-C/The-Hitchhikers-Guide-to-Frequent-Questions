@@ -191,7 +191,7 @@ You'll need some `ETH`_ to deploy your contract later on.
 If you don't have a `MetaMask`_ account yet, create one now. 
 
 .. _MetaMask: https://metamask.io/
-.. _ETH`: https://the-hitchhikers-guide-to-frequent-questions.readthedocs.io/en/latest/testnet.html 
+.. _ETH: https://the-hitchhikers-guide-to-frequent-questions.readthedocs.io/en/latest/testnet.html 
 
 7. Deploy contract 
 ---------
