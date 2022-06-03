@@ -60,7 +60,7 @@ Web3.js is a collection of libraries that allow you to interact with a local or 
 
 .. _Web3.js Documentation: https://web3js.readthedocs.io/en/v1.7.3/
 
-``npm install web3```
+``npm install web3``
 
 
 - Truffle
