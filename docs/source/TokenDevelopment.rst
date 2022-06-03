@@ -67,9 +67,9 @@ Truffle is a development environment, testing framework and asset pipeline for E
 
 Ganache is used for setting up a personal Ethereum Blockchain for testing your Solidity contracts. 
 
-`Documentation`_
+`Doc`_
 
-.. _Documentation: https://trufflesuite.com/docs/ganache/
+.. _Doc: https://trufflesuite.com/docs/ganache/
 
 Smart contracts 
 ---------
