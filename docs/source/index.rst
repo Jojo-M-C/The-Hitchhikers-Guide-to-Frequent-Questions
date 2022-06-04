@@ -35,7 +35,7 @@ So hi! My name is Johanna and this is my personal website where I document a lot
    :caption: Solidity
 
    Operators
-   
+   Common
 
 .. toctree::
    :maxdepth: 2
