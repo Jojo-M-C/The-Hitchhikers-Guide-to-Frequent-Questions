@@ -1,4 +1,4 @@
-Common keywords
+Keywords
 =====
 
 - ``pragma solidity ^0.4.25;`` tells Solidity which versions of the compiler should compile this file.
